@@ -9,7 +9,8 @@ One pipeline, two halves: it finds the single best competitor Facebook ad on a d
 ## Start here
 - **README** — the full write-up: data source, how "best" is defined, scoping decisions, cost, failure modes, and what breaks at 10x → [`README.md`](README.md)
 - **How it works (diagram)** — the pipeline in six plain steps → https://claude.ai/code/artifact/9f572568-c7b8-45a8-aaed-35c22fd35c52
-- **Demo script** (record it) — [`output/DEMO_SCRIPT.md`](output/DEMO_SCRIPT.md) · Hebrew: [`output/DEMO_SCRIPT_HE.md`](output/DEMO_SCRIPT_HE.md)
+- **Demo walkthrough** (recorded in Guidde) → https://app.guidde.com/share/playbooks/ibuuuyDSoVoJFcdjhn2usm?origin=cKI57TOVvpYojjMkKZKKJjSlQFo1&mode=videoAndDoc
+- **Demo script** — [`output/DEMO_SCRIPT_HE.md`](output/DEMO_SCRIPT_HE.md)
 
 ## Part 1 — finding the winning ad
 - **Run report** — every scoring stage, the gates, Round 1 (within-brand) and Round 2 (cross-brand), and why the winner won → [`output/run_report.md`](output/run_report.md)
