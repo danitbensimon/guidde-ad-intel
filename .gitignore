@@ -1,0 +1,15 @@
+# secrets
+.env
+
+# python
+__pycache__/
+*.pyc
+.DS_Store
+
+# intermediate render clips — keep only the final produced ad
+output/storyboard_ai/*.mp4
+!output/storyboard_ai/guidde_ad_FINAL.mp4
+
+# large intermediate render frames (regenerable)
+output/storyboard_ai/*.png
+output/storyboard/

@@ -1,0 +1,357 @@
+{
+  "generated_utc": "2026-08-18 19:00 UTC",
+  "competitors": [
+    "Scribe",
+    "Camtasia",
+    "Loom",
+    "WalkMe"
+  ],
+  "stage1_weights": {
+    "reissue_persistence": 0.6,
+    "longevity": 0.4
+  },
+  "stage2_weights": {
+    "repetition_across_competitors": 0.5,
+    "guidde_relevance": 0.5
+  },
+  "gates": "active + not-retargeting + is-Guidde-alternative",
+  "cluster_threshold": 0.55,
+  "primary_stage": "MOFU",
+  "stage_labels": {
+    "MOFU": "Product / how-it-works",
+    "TOFU": "Awareness / lead-gen"
+  },
+  "total_pulled": 2406,
+  "total_active": 307,
+  "total_inactive_history": 909,
+  "retargeting_excluded": 10,
+  "not_alternative_excluded": 489,
+  "total_active_scored": 307,
+  "distinct_creatives": 36,
+  "stage_count": {
+    "MOFU": 30,
+    "TOFU": 6
+  },
+  "segments": {
+    "MOFU": [
+      {
+        "brand": "Scribe",
+        "format": "VIDEO",
+        "is_active": true,
+        "funnel_stage": "MOFU",
+        "impressions": null,
+        "low_impression": false,
+        "days_running": 4.5,
+        "true_longevity_days": 62.5,
+        "true_versions": 5,
+        "active_versions": 2,
+        "reissue_periods": 2,
+        "copies_running": 2,
+        "persistence_n": 1.0,
+        "longevity_n": 1.0,
+        "champion_score": 1.0,
+        "repetition_n": 0.417,
+        "best_angle": "problem_hook",
+        "xcomp": 3,
+        "relevance_n": 1.0,
+        "relevance_tier": 3,
+        "relevance_term": "guide",
+        "relevance_label": "core Guidde use case",
+        "final_score": 0.7085,
+        "funnel": "prospecting\u00b7inferred",
+        "cta_text": "Learn more",
+        "headline": "The SOP that used to take hours. Now takes minutes.",
+        "description": "Document and share how work actually happens.",
+        "body": "The part nobody puts on the job description: spending hours writing up everything you do into a document so that someone else can follow it. \ud83d\ude23  It doesn't have to be that way.  With Scribe, you do the task. It captures everything you do, clicks and keystrokes, and builds a guide automatically, break",
+        "ad_library_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&view_all_page_id=110376044484488&search_type=page&q=The%20part%20nobody%20puts%20on%20the",
+        "ad_library_url_exact": "https://www.facebook.com/ads/library/?id=1737809570795386"
+      },
+      {
+        "brand": "Camtasia",
+        "format": "DCO",
+        "is_active": true,
+        "funnel_stage": "MOFU",
+        "impressions": null,
+        "low_impression": false,
+        "days_running": 70.5,
+        "true_longevity_days": 70.5,
+        "true_versions": 2,
+        "active_versions": 1,
+        "reissue_periods": 2,
+        "copies_running": 1,
+        "persistence_n": 1.0,
+        "longevity_n": 0.986,
+        "champion_score": 0.9944,
+        "repetition_n": 0.417,
+        "best_angle": "stat_proof",
+        "xcomp": 3,
+        "relevance_n": 0.667,
+        "relevance_tier": 2,
+        "relevance_term": "train",
+        "relevance_label": "onboard / train / support",
+        "final_score": 0.542,
+        "funnel": "prospecting\u00b7inferred",
+        "cta_text": "Learn more",
+        "headline": "{{product.name}}",
+        "description": "{{product.description}}",
+        "body": "techsmith.com/camtasia   Trusted by Teams who Train   Add quizzing & interactivity to your training videos. Camtasia is designed for comprehension, not just style.   Trusted by Teams who Train   Add quizzing & interactivity to your training videos. Camtasia is designed for comprehension, not just st",
+        "ad_library_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&view_all_page_id=14531695471&search_type=page&q=Trusted%20by%20Teams%20who%20Train%20Add",
+        "ad_library_url_exact": "https://www.facebook.com/ads/library/?id=1555644152851009"
+      },
+      {
+        "brand": "Loom",
+        "format": "VIDEO",
+        "is_active": true,
+        "funnel_stage": "MOFU",
+        "impressions": null,
+        "low_impression": false,
+        "days_running": 82.5,
+        "true_longevity_days": 259.5,
+        "true_versions": 3,
+        "active_versions": 1,
+        "reissue_periods": 3,
+        "copies_running": 1,
+        "persistence_n": 1.0,
+        "longevity_n": 1.0,
+        "champion_score": 1.0,
+        "repetition_n": 0.417,
+        "best_angle": "problem_hook",
+        "xcomp": 3,
+        "relevance_n": 0.333,
+        "relevance_tier": 1,
+        "relevance_term": "record and share",
+        "relevance_label": "adoption / async (peripheral)",
+        "final_score": 0.375,
+        "funnel": "prospecting\u00b7inferred",
+        "cta_text": "Sign up",
+        "headline": "Don't get stuck on the wrong side of time zone math.",
+        "description": null,
+        "body": "Is your team stuck accomodating schedules and timezones? Record and share presentations in a Loom video to unstuck your day.   Don't get stuck on the wrong side of time zone math.   www.atlassian.com",
+        "ad_library_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&view_all_page_id=115407078489594&search_type=page&q=Is%20your%20team%20stuck%20accomodating%20schedules",
+        "ad_library_url_exact": "https://www.facebook.com/ads/library/?id=1340695467952174"
+      }
+    ],
+    "TOFU": [
+      {
+        "brand": "WalkMe",
+        "format": "IMAGE",
+        "is_active": true,
+        "funnel_stage": "TOFU",
+        "impressions": "<100",
+        "low_impression": true,
+        "days_running": 8.5,
+        "true_longevity_days": 84.5,
+        "true_versions": 383,
+        "active_versions": 240,
+        "reissue_periods": 4,
+        "copies_running": 240,
+        "persistence_n": 1.0,
+        "longevity_n": 0.719,
+        "champion_score": 0.8876,
+        "repetition_n": 0.5,
+        "best_angle": "ai_powered",
+        "xcomp": 3,
+        "relevance_n": 0.333,
+        "relevance_tier": 1,
+        "relevance_term": "digital adoption",
+        "relevance_label": "adoption / async (peripheral)",
+        "final_score": 0.4165,
+        "funnel": "prospecting\u00b7inferred",
+        "cta_text": "Learn more",
+        "headline": "The State of Digital Adoption Report",
+        "description": "Download now",
+        "body": "AI was supposed to reduce friction. Instead, it's adding it. Get the data on what caused this.   The State of Digital Adoption Report   www.walkme.com   Download now",
+        "ad_library_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&view_all_page_id=180728395378883&search_type=page&q=AI%20was%20supposed%20to%20reduce%20Instead%2C",
+        "ad_library_url_exact": "https://www.facebook.com/ads/library/?id=1093770439981628"
+      },
+      {
+        "brand": "Loom",
+        "format": "IMAGE",
+        "is_active": true,
+        "funnel_stage": "TOFU",
+        "impressions": null,
+        "low_impression": false,
+        "days_running": 41.5,
+        "true_longevity_days": 41.5,
+        "true_versions": 1,
+        "active_versions": 1,
+        "reissue_periods": 1,
+        "copies_running": 1,
+        "persistence_n": 0.333,
+        "longevity_n": 0.16,
+        "champion_score": 0.2638,
+        "repetition_n": 0.5,
+        "best_angle": "time_saved",
+        "xcomp": 4,
+        "relevance_n": 0.0,
+        "relevance_tier": 0,
+        "relevance_term": "",
+        "relevance_label": "unclassified",
+        "final_score": 0.25,
+        "funnel": "prospecting\u00b7inferred",
+        "cta_text": "Download",
+        "headline": "The Modern Marketer's Guide",
+        "description": null,
+        "body": "Learn how Loom helps marketers eliminate approval bottlenecks, speed up stakeholder reviews, and ship campaigns faster.   The Modern Marketer's Guide   atlassian.com",
+        "ad_library_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&view_all_page_id=115407078489594&search_type=page&q=Learn%20how%20Loom%20helps%20marketers%20eliminate",
+        "ad_library_url_exact": "https://www.facebook.com/ads/library/?id=1303392765004693"
+      }
+    ]
+  },
+  "per_brand": {
+    "Scribe": {
+      "pulled": 535,
+      "active": 35,
+      "inactive": 482,
+      "retargeting_excluded": 0,
+      "not_alternative": 18
+    },
+    "Camtasia": {
+      "pulled": 320,
+      "active": 7,
+      "inactive": 34,
+      "retargeting_excluded": 0,
+      "not_alternative": 279
+    },
+    "Loom": {
+      "pulled": 790,
+      "active": 10,
+      "inactive": 13,
+      "retargeting_excluded": 10,
+      "not_alternative": 66
+    },
+    "WalkMe": {
+      "pulled": 761,
+      "active": 255,
+      "inactive": 380,
+      "retargeting_excluded": 0,
+      "not_alternative": 126
+    }
+  },
+  "angle_coverage": {
+    "time_saved": [
+      "Camtasia",
+      "Loom",
+      "Scribe",
+      "WalkMe"
+    ],
+    "stat_proof": [
+      "Camtasia",
+      "Scribe",
+      "WalkMe"
+    ],
+    "problem_hook": [
+      "Loom",
+      "Scribe",
+      "WalkMe"
+    ],
+    "ai_powered": [
+      "Camtasia",
+      "Loom",
+      "WalkMe"
+    ],
+    "onboarding_training": [
+      "Camtasia",
+      "Scribe"
+    ],
+    "documentation_sop": [
+      "Loom",
+      "Scribe"
+    ],
+    "async_vs_meetings": [
+      "Loom",
+      "Scribe"
+    ],
+    "tool_overload": [
+      "Loom",
+      "WalkMe"
+    ],
+    "repetitive_questions": [
+      "Scribe"
+    ]
+  },
+  "angle_keywords": {
+    "time_saved": [
+      "save time",
+      "faster",
+      "minutes, not hours",
+      "win back time",
+      "hours a week",
+      "75%",
+      "saves you",
+      "less time",
+      "in seconds"
+    ],
+    "ai_powered": [
+      "ai ",
+      "ai-",
+      " ai",
+      "artificial intelligence"
+    ],
+    "problem_hook": [
+      "still ",
+      "stuck",
+      "stop ",
+      "can't",
+      "can\u2019t",
+      "out of office",
+      "?",
+      "tired of",
+      "nobody",
+      "the problem"
+    ],
+    "async_vs_meetings": [
+      "meeting",
+      "swap meetings",
+      "skip the call",
+      "async",
+      "record and share",
+      "quick update",
+      "video update"
+    ],
+    "documentation_sop": [
+      "sop",
+      "document",
+      "documentation",
+      "process doc",
+      "training guide",
+      "how-to",
+      "step-by-step",
+      "guide"
+    ],
+    "onboarding_training": [
+      "train",
+      "onboard",
+      "learner",
+      "teams who train"
+    ],
+    "repetitive_questions": [
+      "same task",
+      "same question",
+      "keeps asking",
+      "walk people through",
+      "walking people through",
+      "skip the call",
+      "fewer questions"
+    ],
+    "stat_proof": [
+      "%",
+      "survey",
+      "data",
+      "report",
+      "state of",
+      "trusted by",
+      "ranked",
+      "g2",
+      "winner"
+    ],
+    "tool_overload": [
+      "too many",
+      "managing tools",
+      "tech stack",
+      "tools instead",
+      "lives in too many places",
+      "workflow"
+    ]
+  }
+}

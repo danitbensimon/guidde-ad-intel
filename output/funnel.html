@@ -1,0 +1,113 @@
+<title>Filtering Funnel</title>
+<style>
+  :root {
+    --bg:#FAF8F4; --surface:#FFFFFF; --ink:#1B1A20; --muted:#6C6A74; --hair:#E7E3DB;
+    --accent:#C2410C; --accent-soft:#FDF3EA; --teal:#0F4A4D;
+    --keep:#12474A; --removed:#9A3412; --removed-soft:#FBEAE2;
+    --aside:#6C6A74; --aside-soft:#EFEDE7; --merge:#B45309; --merge-soft:#FBF1DE;
+    --win:#C2410C; --win-soft:#FBF3E4;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  @media (prefers-color-scheme:dark){ :root:not([data-theme="light"]){
+    --bg:#131218; --surface:#1C1B23; --ink:#ECEAF0; --muted:#9A97A4; --hair:#2C2A36;
+    --accent:#F97316; --accent-soft:#2A1B12; --teal:#6FC7C1;
+    --keep:#6FC7C1; --removed:#FB923C; --removed-soft:#2A1B12;
+    --aside:#9A97A4; --aside-soft:#232230; --merge:#F59E0B; --merge-soft:#241E12;
+    --win:#F97316; --win-soft:#241E12;
+  }}
+  :root[data-theme="dark"]{
+    --bg:#131218; --surface:#1C1B23; --ink:#ECEAF0; --muted:#9A97A4; --hair:#2C2A36;
+    --accent:#F97316; --accent-soft:#2A1B12; --teal:#6FC7C1;
+    --keep:#6FC7C1; --removed:#FB923C; --removed-soft:#2A1B12;
+    --aside:#9A97A4; --aside-soft:#232230; --merge:#F59E0B; --merge-soft:#241E12;
+    --win:#F97316; --win-soft:#241E12;
+  }
+  *{ box-sizing:border-box; }
+  body{ background:var(--bg); color:var(--ink); font-family:var(--sans); line-height:1.5; margin:0; }
+  .wrap{ max-width:760px; margin:0 auto; padding:44px 20px 80px; }
+  .kicker{ font-size:12px; letter-spacing:.16em; text-transform:uppercase; color:var(--accent); font-weight:700; }
+  h1{ font-size:28px; margin:10px 0 6px; font-weight:800; letter-spacing:-.02em; }
+  .sub{ color:var(--muted); font-size:15px; margin:0 0 26px; max-width:60ch; }
+
+  .funnel{ display:flex; flex-direction:column; align-items:center; gap:0; }
+  .band{ width:100%; background:var(--surface); border:1.5px solid var(--keep);
+    border-radius:12px; padding:14px 20px; display:flex; align-items:baseline; gap:16px;
+    justify-content:center; text-align:center; }
+  .band .n{ font-size:30px; font-weight:800; letter-spacing:-.02em; font-variant-numeric:tabular-nums; color:var(--keep); }
+  .band .l{ font-size:14px; color:var(--ink); }
+  .band .l small{ display:block; color:var(--muted); font-size:12px; margin-top:1px; }
+  .b1{ max-width:100%; } .b2{ max-width:82%; } .b3{ max-width:64%; }
+  .b4{ max-width:48%; } .b5{ max-width:34%; } .b6{ max-width:26%; }
+  .band.win{ border-color:var(--win); background:var(--win-soft); }
+  .band.win .n{ color:var(--win); }
+
+  .step{ display:flex; align-items:center; gap:10px; padding:9px 0; color:var(--muted); font-size:13px; }
+  .step .arrow{ color:var(--hair); font-size:18px; line-height:1; }
+  .tag{ display:inline-flex; align-items:center; gap:6px; padding:3px 10px; border-radius:999px; font-size:12.5px; font-weight:600; }
+  .tag.rm{ background:var(--removed-soft); color:var(--removed); }
+  .tag.as{ background:var(--aside-soft); color:var(--aside); }
+  .tag.mg{ background:var(--merge-soft); color:var(--merge); }
+  .tag.sc{ background:var(--accent-soft); color:var(--accent); }
+  .step .why{ }
+  .row{ display:flex; flex-wrap:wrap; gap:6px 10px; align-items:center; justify-content:center; text-align:center; }
+
+  .legend{ margin-top:34px; border-top:1px solid var(--hair); padding-top:18px; display:flex; flex-wrap:wrap; gap:16px; font-size:13px; color:var(--muted); }
+  .legend span{ display:inline-flex; align-items:center; gap:7px; }
+  .dot{ width:11px; height:11px; border-radius:3px; display:inline-block; }
+  .note{ color:var(--muted); font-size:13px; margin-top:18px; }
+</style>
+<div class="wrap">
+  <div class="kicker">Part 1 · the filtering funnel</div>
+  <h1>How 2,406 scraped ads became 1 winner</h1>
+  <p class="sub">Every step that narrows the field, and exactly what left at each one. Green bands are what carried forward; the tags between them show what was removed, set aside, or merged.</p>
+
+  <div class="funnel">
+
+    <div class="band b1"><span class="n">2,406</span><span class="l">Pulled<small>4 brands, scraped by Page ID</small></span></div>
+
+    <div class="step"><span class="arrow">▼</span>
+      <span class="row">
+        <span class="tag rm">− 691 wrong brand</span>
+        <span class="tag rm">− 10 retargeting</span>
+        <span class="tag rm">− 489 not a Guidde use case</span>
+      </span>
+    </div>
+
+    <div class="band b2"><span class="n">1,216</span><span class="l">Guidde-relevant ads<small>active + inactive history</small></span></div>
+
+    <div class="step"><span class="arrow">▼</span>
+      <span class="tag as">− 909 set aside as inactive (kept as message history, not scored)</span>
+    </div>
+
+    <div class="band b3"><span class="n">307</span><span class="l">Active, relevant, scored</span></div>
+
+    <div class="step"><span class="arrow">▼</span>
+      <span class="tag mg">merged duplicate versions of the same message</span>
+    </div>
+
+    <div class="band b4"><span class="n">36</span><span class="l">Distinct creatives<small>MOFU 30 · TOFU 6</small></span></div>
+
+    <div class="step"><span class="arrow">▼</span>
+      <span class="tag sc">Stage 1 · each brand's most-proven ad</span>
+    </div>
+
+    <div class="band b5"><span class="n">5</span><span class="l">Brand champions</span></div>
+
+    <div class="step"><span class="arrow">▼</span>
+      <span class="tag sc">Stage 2 · champions compete across brands</span>
+    </div>
+
+    <div class="band b6 win"><span class="n">1</span><span class="l">The winner<small>Scribe · product lane</small></span></div>
+
+  </div>
+
+  <div class="legend">
+    <span><span class="dot" style="background:var(--removed)"></span> removed (thrown out)</span>
+    <span><span class="dot" style="background:var(--aside)"></span> set aside (kept as history)</span>
+    <span><span class="dot" style="background:var(--merge)"></span> merged (deduplicated)</span>
+    <span><span class="dot" style="background:var(--accent)"></span> scoring stage</span>
+  </div>
+
+  <p class="note"><b>Reading the two key numbers:</b> 307 = every live, relevant ad. 36 = those same ads after merging near-identical versions of one message (e.g. WalkMe ran 255 live ads that were only 5 distinct messages). Nothing relevant was dropped in that step, duplicates were just counted once.</p>
+  <p class="note"><b>Why "wrong brand" (691):</b> Loom advertises on its parent Atlassian's page, so the scrape also caught non-Loom Atlassian ads; those are dropped by a link filter before anything else.</p>
+</div>

@@ -1,0 +1,140 @@
+<title>Guidde Ad Production Kit</title>
+<style>
+  :root{
+    --bg:#FAF7F3; --surface:#FFFFFF; --surface2:#F3EEE8; --ink:#1D1A18; --muted:#6E6862;
+    --hair:#E7DFD6; --accent:#701A2A; --accent-soft:#F7E9EC; --gold:#B8863B;
+    --code-bg:#1E1B19; --code-fg:#F3ECE4; --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+    --bg:#161311; --surface:#201C1A; --surface2:#292320; --ink:#F1EBE4; --muted:#A69C93;
+    --hair:#332C28; --accent:#E8899A; --accent-soft:#2A1A1E; --gold:#D9AC63;
+    --code-bg:#000; --code-fg:#F3ECE4;
+  }}
+  :root[data-theme="dark"]{
+    --bg:#161311; --surface:#201C1A; --surface2:#292320; --ink:#F1EBE4; --muted:#A69C93;
+    --hair:#332C28; --accent:#E8899A; --accent-soft:#2A1A1E; --gold:#D9AC63; --code-bg:#000; --code-fg:#F3ECE4;
+  }
+  *{box-sizing:border-box}
+  body{background:var(--bg);color:var(--ink);font-family:var(--sans);line-height:1.55;margin:0}
+  .wrap{max-width:780px;margin:0 auto;padding:44px 20px 90px}
+  header.top{border-bottom:2px solid var(--accent);padding-bottom:22px;margin-bottom:8px}
+  .kicker{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);font-weight:700}
+  h1{font-size:30px;line-height:1.1;margin:10px 0 6px;font-weight:800;letter-spacing:-.02em}
+  header.top p{color:var(--muted);margin:0;font-size:15px;max-width:60ch}
+
+  .rules{background:var(--accent-soft);border:1px solid var(--hair);border-radius:14px;padding:16px 20px;margin:26px 0}
+  .rules h2{font-size:14px;letter-spacing:.04em;text-transform:uppercase;color:var(--accent);margin:0 0 10px}
+  .rules ul{margin:0;padding-left:18px}
+  .rules li{margin:6px 0;font-size:14.5px}
+  .rules b{color:var(--accent)}
+
+  .shot{background:var(--surface);border:1px solid var(--hair);border-radius:14px;padding:20px;margin:16px 0}
+  .shot .head{display:flex;align-items:baseline;gap:12px;margin-bottom:14px}
+  .shot .num{font-size:13px;font-weight:800;color:#fff;background:var(--accent);border-radius:8px;padding:3px 10px;letter-spacing:.03em}
+  .shot .role{font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+  .lbl{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--gold);font-weight:700;margin:14px 0 5px;display:block}
+  pre{background:var(--code-bg);color:var(--code-fg);font-family:var(--mono);font-size:12.5px;line-height:1.6;
+    padding:14px 16px;border-radius:10px;overflow-x:auto;margin:0;white-space:pre-wrap}
+  .say{font-size:16px;font-weight:600;color:var(--ink);margin:0;padding:10px 14px;background:var(--surface2);border-radius:10px;border-left:3px solid var(--accent)}
+  .onscreen{font-size:14px;color:var(--muted);margin:0}
+  .onscreen span{background:rgba(0,0,0,.06);padding:2px 8px;border-radius:6px;color:var(--ink);font-weight:600}
+
+  .endcard{background:var(--accent);color:#fff;border-radius:14px;padding:26px;text-align:center;margin:16px 0}
+  .endcard .g{font-size:40px;font-weight:800;letter-spacing:-.02em}
+  .endcard .btn{display:inline-block;background:#fff;color:var(--accent);font-weight:700;border-radius:999px;padding:8px 22px;margin:10px 0 6px}
+  .endcard .dom{font-size:13px;opacity:.85}
+  .endcard small{display:block;margin-top:12px;opacity:.8;font-size:12px}
+
+  h2.sec{font-size:20px;margin:34px 0 6px;letter-spacing:-.01em}
+  ol.flow{margin:0;padding-left:20px}
+  ol.flow li{margin:8px 0;font-size:14.5px}
+  code{font-family:var(--mono);background:var(--surface2);padding:1px 6px;border-radius:5px;font-size:.92em}
+  a{color:var(--accent)}
+</style>
+<div class="wrap">
+<header class="top">
+  <div class="kicker">Guidde · UGC car ad · build-it-yourself kit</div>
+  <h1>The whole video, shot by shot</h1>
+  <p>Every shot below has three things: what to generate, what she says, and the on-screen text. Same format as the winning ad: two people in a car, shot-reverse-shot, dry and casual.</p>
+</header>
+
+<div class="rules">
+  <h2>3 rules that make or break it</h2>
+  <ul>
+    <li>Spell the brand <b>guide</b> in the spoken lines (never "Guidde") so the voice says <b>"gaaid"</b>. The on-screen text still shows <b>Guidde</b>.</li>
+    <li><b>Light British accent</b>, both women. <b>Casual, flat, tired</b> delivery, no acting, no ad polish.</li>
+    <li>Generate each shot separately (~5s, Kling 3.0, 9:16), then <b>hard-cut</b> them together, no gaps.</li>
+  </ul>
+</div>
+
+<div class="shot">
+  <div class="head"><span class="num">1</span><span class="role">Driver · to camera</span></div>
+  <span class="lbl">Generate</span>
+  <pre>Authentic UGC iPhone selfie, vertical 9:16, front camera on the dashboard FACING the driver so her face is fully visible. A young woman, light-brown wavy hair, cream top, in the driver's seat, seatbelt on, one hand on the wheel. Ordinary girl-next-door, minimal makeup, natural daylight, candid, no glam, real skin texture, no ad polish.</pre>
+  <span class="lbl">She says</span>
+  <p class="say">"Being the one who knows how everything works is a second full-time job."</p>
+  <span class="lbl">On-screen text</span>
+  <p class="onscreen"><span>POV: being the one who knows how everything works is a second full-time job</span></p>
+</div>
+
+<div class="shot">
+  <div class="head"><span class="num">2</span><span class="role">Driver · to camera</span></div>
+  <span class="lbl">Generate</span>
+  <pre>Same driver, same car, front-camera selfie, face visible, mildly exasperated but calm. (Use a frame of shot 1 as the start image to keep the same woman.)</pre>
+  <span class="lbl">She says</span>
+  <p class="say">"I've rewritten the same SOP four times, and nobody's read it once."</p>
+  <span class="lbl">On-screen text</span>
+  <p class="onscreen"><span>rewriting the same doc nobody reads</span></p>
+</div>
+
+<div class="shot">
+  <div class="head"><span class="num">3</span><span class="role">Passenger · then product</span></div>
+  <span class="lbl">Generate (part A — passenger)</span>
+  <pre>UGC video, side three-quarter angle of the PASSENGER: a different young woman, long dark straight hair, grey sweater, seatbelt on, turned toward the driver on her left and looking at her (not the camera). Calm, British accent. Same car, natural daylight, candid, no glam.</pre>
+  <span class="lbl">Generate (part B — product cut)</span>
+  <pre>Cut to a real screen recording of the Guidde platform (your own recording), showing the guide with AI voiceover / captions.</pre>
+  <span class="lbl">She says (over both)</span>
+  <p class="say">"So stop writing it. You do the task once, and guide turns it into a video."</p>
+  <span class="lbl">On-screen text (over the product)</span>
+  <p class="onscreen"><span>AI voiceover · captions · 40+ languages · share with one link</span></p>
+</div>
+
+<div class="shot">
+  <div class="head"><span class="num">4</span><span class="role">Driver · to camera</span></div>
+  <span class="lbl">Generate</span>
+  <pre>Same driver again (start image from shot 1), calm, a little relieved, front-camera selfie, face visible.</pre>
+  <span class="lbl">She says</span>
+  <p class="say">"Now I just send a link instead of explaining it for the hundredth time."</p>
+  <span class="lbl">On-screen text</span>
+  <p class="onscreen"><span>now I just send a link</span></p>
+</div>
+
+<div class="shot">
+  <div class="head"><span class="num">5</span><span class="role">Passenger · deadpan</span></div>
+  <span class="lbl">Generate</span>
+  <pre>Same passenger (start image from shot 3), deadpan, tiny smirk, side/three-quarter, British accent.</pre>
+  <span class="lbl">She says</span>
+  <p class="say">"And it's free. Revolutionary, I know."</p>
+  <span class="lbl">On-screen text</span>
+  <p class="onscreen"><span>and it's free</span></p>
+</div>
+
+<h2 class="sec">End card</h2>
+<div class="endcard">
+  <div class="g">Guidde</div>
+  <span class="btn">Try For Free</span>
+  <div class="dom">guidde.com</div>
+  <small>Maroon background #701A2A (Guidde's real brand colour) · white text · hold ~2s</small>
+</div>
+
+<h2 class="sec">Putting it together</h2>
+<ol class="flow">
+  <li>Generate shots 1–5 in <b>Kling 3.0</b>, 9:16, ~5s each. <b>Re-roll until the audio sounds right</b> — you can hear it, that's your edge.</li>
+  <li>Drop them in order in an editor (CapCut). <b>Hard cuts, no gaps</b> between shots — that kills the awkward pauses.</li>
+  <li>Trim any dead air inside a clip (the silence between the two speakers).</li>
+  <li>Add your Guidde screen recording as the product cut inside shot 3.</li>
+  <li>Add captions (CapCut → Auto captions), then fix any word so the brand reads <b>Guidde</b>.</li>
+  <li>Add the maroon end card at the end.</li>
+</ol>
+</div>
