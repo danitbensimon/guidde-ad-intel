@@ -6,7 +6,7 @@ One pipeline, two halves. It scrapes competitors' Facebook ads, scores them to f
 - **Winning ad:** Scribe, "The part nobody puts on the job description" — a car-POV UGC video with documentation-pain copy ([exact ad, by Meta Library ID](https://www.facebook.com/ads/library/?id=1737809570795386))
 - **Winner teardown:** [`output/01_winner_analysis.md`](output/01_winner_analysis.md)
 - **Creative brief:** [`output/02_creative_brief.md`](output/02_creative_brief.md)
-- **Storyboard + produced ad:** [`output/04_storyboard.html`](output/04_storyboard.html) (generated frames) and the produced UGC video in `output/storyboard_ai/`
+- **Storyboard + produced ad:** [storyboard with frames (rendered)](https://htmlpreview.github.io/?https://github.com/danitbensimon/guidde-ad-intel/blob/main/output/04_storyboard.html) and the [produced ad, with full ad copy (rendered)](https://htmlpreview.github.io/?https://github.com/danitbensimon/guidde-ad-intel/blob/main/output/demo_video.html)
 - **Run report (auto-generated, full score math):** [`output/run_report.md`](output/run_report.md)
 
 ---
