@@ -40,7 +40,7 @@ Repetition = how many of the four competitors also run the champion's angles (th
 
 Why two stages: within-brand facts (a brand re-running its own ad) pick a brand's best ad; cross-brand facts (an angle rivals share, closeness to Guidde) pick which brand's best ad wins. Keeping them separate stops one brand's ad volume from dominating the result.
 
-**The winner: Scribe, "The part nobody puts on the job description"** — a car-POV UGC video with documentation-pain copy (Meta Library ID 1737809570795386). It is Scribe's most-proven ad (champion 1.0: re-issued across 2 distinct months, 5 versions, running 61 days), it is market-validated (its problem-hook angle runs across 3 of the 4 competitors), and it sits dead-center on Guidde's core (relevance tier 3). Stage-2 final 0.71. Scribe is the competitor closest to Guidde, both turn a screen capture into step-by-step documentation, so the winning formula transfers almost one to one.
+**The winner: Scribe, "The part nobody puts on the job description"** — a car-POV UGC video with documentation-pain copy (Meta Library ID 1737809570795386). It is Scribe's most-proven ad (champion 1.0: re-issued across 2 distinct months, 5 versions, running 62 days), it is market-validated (its problem-hook angle runs across 3 of the 4 competitors), and it sits dead-center on Guidde's core (relevance tier 3). Stage-2 final 0.71. Scribe is the competitor closest to Guidde, both turn a screen capture into step-by-step documentation, so the winning formula transfers almost one to one.
 
 ## 3. Scoping decisions (the judgment calls)
 
@@ -57,7 +57,7 @@ The fix is to **compare active ads against inactive ads of the same message.** S
 - **true longevity** = days from the message's earliest version to now, and
 - **persistence** = how many distinct calendar months the brand re-launched the message.
 
-By that measure the winning Scribe ad reads as **5 versions across 2 distinct months, 61 days of true longevity**, rather than one short run, revealed preference for a message the brand keeps re-committing to. This turns DCO churn from a bug (misleading dates) into the persistence signal itself. It is the correct implementation of "new versions of the same ad."
+By that measure the winning Scribe ad reads as **5 versions across 2 distinct months, 62 days of true longevity**, rather than one short run, revealed preference for a message the brand keeps re-committing to. This turns DCO churn from a bug (misleading dates) into the persistence signal itself. It is the correct implementation of "new versions of the same ad."
 
 To see it yourself: on any brand's Ad Library page, switch the "Active status" filter from **Active** to **All**. The inactive ads carry full start-to-end date ranges that reveal the message's real history.
 
