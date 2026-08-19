@@ -21,7 +21,7 @@ One pipeline, two halves: it finds the single best competitor Facebook ad on a d
 - **Teardown** of the winning ad (hook, angle, structure, visual style, why it works) → [`output/01_winner_analysis.md`](output/01_winner_analysis.md)
 - **Creative brief** → [`output/02_creative_brief.md`](output/02_creative_brief.md)
 - **Storyboard** — text: [`output/03_storyboard.md`](output/03_storyboard.md) · designed with frames: https://claude.ai/code/artifact/79aebe43-be36-4709-9ffe-81182d5ffd80
-- **The produced Guidde ad** (full ad: hook, caption, CTA, video) → `output/storyboard_ai/guidde_ad_FINAL.mp4`
+- **The produced Guidde ad** (full ad: hook, caption, CTA, video) → `output/storyboard_ai/guidde_ad_final.mp4`
 
 ---
 

@@ -1,6 +1,6 @@
 # Storyboard: Guidde car-POV UGC ad (produced)
 
-This is the text version of the produced ad. The rendered storyboard with frames is [`04_storyboard.html`](04_storyboard.html); the finished video is `output/storyboard_ai/guidde_ad_FINAL.mp4`.
+This is the text version of the produced ad. The rendered storyboard with frames is [`04_storyboard.html`](04_storyboard.html); the finished video is `output/storyboard_ai/guidde_ad_final.mp4`.
 
 **Format:** 9:16 vertical, ~16s, sound-on and legible muted. UGC, filmed in a car, British accent.
 **Adapted from the winner:** Scribe's car-POV monologue format, reworked into a two-hander, one person vents the problem, the mate in the passenger seat gives the fix, exactly the winning ad's structure. Copy is original to Guidde; only the format and the beats are reused.
